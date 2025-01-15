@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "A QR code generator built with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeamlakTesfahun/qrcode-generator.git"
+  },
+  "author": "Beamlak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeamlakTesfahun/qrcode-generator/issues"
+  },
+  "homepage": "https://github.com/BeamlakTesfahun/qrcode-generator#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}
