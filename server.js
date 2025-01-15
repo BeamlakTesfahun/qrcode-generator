@@ -4,6 +4,7 @@ import QRCode from "qrcode";
 const app = express();
 const PORT = 3000;
 
+// parse json data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
